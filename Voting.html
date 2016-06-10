@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Vote Your Leader</title>
+        <script src="vote.js"></script>
+        </head>
+        <body style="text-align:center;background-color:rgb(200,200,200);border-style:dotted;">
+            <br>
+            <pre style="font-family:Arial;margin-left:-70px;"><strong>                            1. Select your candidates from the lists.</strong><br>
+            <strong>2. Click on the Submit-Button.</strong></pre>
+                      <pre style="font-size:18pt;">Male Leader                         Female Leader</pre>
+                   <select id="male" style="width:100px;margin-left:-20px;height:40px;font-size:12pt;">
+                    <option value=1>Rakesh
+                      <option value=2>Sunil
+                          <option value=3>Anmol
+                              <option value=4>Prateek
+                                  <option value=5>Paras
+                                      
+                   </select><select id="female" style="width:100px;margin-left:400px;height:40px;font-size:12pt;">
+                    <option value=1>Heenu
+                      <option value=2>Akansha
+                          <option value=3>Vidhi
+                              <option value=4>Swadha
+                                  <option value=5>Mrinali
+                   </select>
+                   <br><br>
+                   <pre style="margin-top:100px;align:center;"><button type="button" onclick="res_male()" style="height:50px;border-radius:15px;cursor:hand;border:2px solid black"><b>Submit for Male-Leader<b></button>    <button type="button" onclick="res_female()" style="height:50px;cursor:hand;border:2px solid black;border-radius:15px;"><b>Submit for Female-Leader</b></button>
+                   </pre>
+                   <pre style="font-family:Arial;font-size:15pt" id="mres"></pre>
+                   <pre style="font-family:Arial;font-size:15pt" id="fres"></pre>
+                   <button type="button" onclick="display()" style="margin-top:100px;height:50px;font-size:12pt;border-radius:15px;cursor:hand;border:3px solid black;opacity:0.4;"><b>Check Result</b></button>
+                   <br><br>
+                               </body>
+    </html>
+    
