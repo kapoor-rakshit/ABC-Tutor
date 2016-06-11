@@ -8,6 +8,7 @@ function res_male()
    if(m.value==3) male.anmol++;
    if(m.value==4) male.prateek++;
    if(m.value==5) male.paras++;
+   window.alert("Thanks.\nYour Response has been recorded.");
 }
 function res_female()
 {
@@ -17,6 +18,7 @@ function res_female()
    if(m.value==3) female.vidhi++;
    if(m.value==4) female.swadha++;
    if(m.value==5) female.mrinali++;
+   window.alert("Thanks.\nYour Response has been recorded.");
 }
 function display() {
    document.getElementById("mres").innerHTML+="Rakesh :  "+ male.rakesh+"<br>";
