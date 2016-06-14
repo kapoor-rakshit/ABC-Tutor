@@ -21,13 +21,13 @@ function res_female()
    window.alert("Thanks.\nYour Response has been recorded.");
 }
 function display() {
-   document.getElementById("mres").innerHTML+="Rakesh :  "+ male.rakesh+"<br>";
+   document.getElementById("mres").innerHTML="Rakesh :  "+ male.rakesh+"<br>";
    document.getElementById("mres").innerHTML+="Sunil :      "+ male.sunil+"<br>";
    document.getElementById("mres").innerHTML+="Anmol :   "+ male.anmol+"<br>";
    document.getElementById("mres").innerHTML+="Prateek : "+ male.prateek+"<br>";
    document.getElementById("mres").innerHTML+="Paras :     "+ male.paras;
    
-   document.getElementById("fres").innerHTML+="Heenu :     "+ female.heenu+"<br>";
+   document.getElementById("fres").innerHTML="Heenu :     "+ female.heenu+"<br>";
    document.getElementById("fres").innerHTML+="Akansha : "+ female.akansha+"<br>";
    document.getElementById("fres").innerHTML+="Vidhi :       "+ female.vidhi+"<br>";
    document.getElementById("fres").innerHTML+="Swadha :  "+ female.swadha+"<br>";
